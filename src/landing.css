@@ -1,0 +1,75 @@
+.cover{
+    width: 120pc;
+    height: 50pc;
+}
+.mypic{
+    margin-top: -37pc;
+    margin-left: 0pc;
+    height: 40pc;
+    width: 30pc;
+}
+.name{
+    display: flex;
+    position: relative;
+    margin-left: 60pc;
+    margin-top: -30pc;
+    font-size: 5cm;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.info{
+    height: 50pc;
+    background-color: aqua;
+     margin: 2%;
+     display: flex;
+}
+.frame_1{
+    background-color: bisque;
+    height: 46pc;
+    width: 47%;
+    margin: 1%;
+    margin-left: 2%;
+}
+.frame_2{
+    display: block;
+    background-color: bisque;
+    height: 46pc;
+    width: 47%;
+    margin: 1%;
+}
+
+
+
+.footer{
+    display:flexbox;
+    background-color: darkgray;
+    height: 20pc;
+
+
+}
+.social{
+    padding-top: 80px;
+    
+    
+    margin-left: 40%;
+    align-items: centers;
+    font-size: 20px;
+
+}
+.contact{
+    margin-top: -4%;
+margin-left: 1%;
+font-size: 20px;
+}
+#item{
+    margin-top: 0.5%;
+    font-size: 20px;
+
+}
+#company{
+    margin-left: 80%;
+    margin-top: -3%;
+    font-weight: 500;
+    font-size: 30px;
+}
