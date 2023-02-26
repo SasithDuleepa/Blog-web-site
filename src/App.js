@@ -1,7 +1,8 @@
 import Landing from './landing';
-import './App.css';
+import GridExample from './components/card/card';
 
-function App() {
+
+function App(props) {
   return (
     <div>
       <Landing/>
