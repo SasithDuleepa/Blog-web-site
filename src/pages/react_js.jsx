@@ -3,7 +3,15 @@ import React from 'react';
 const React_js = () => {
     return (
         <div>
-            react js post
+            <div className='heading'>
+                <p>React js</p>
+
+            </div>
+            <div className='body'>
+                <p>about react js .......</p>
+
+            </div>
+           
         </div>
     );
 };
