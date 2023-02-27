@@ -22,7 +22,7 @@
 .info{
     height: 50pc;
  
-     margin: 2%;
+     margin: 1%;
      display: flex;
 }
 .frame_1{
@@ -47,10 +47,10 @@
 }
 
 .a{
-    font-size: 30px;
-    margin-top: 2%;
+    font-size: 25px;
+   
     margin-left: 5%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:  sans-serif;
 }
 
 #card_view{
