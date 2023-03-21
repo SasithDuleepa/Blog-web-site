@@ -1,0 +1,9 @@
+.card{
+    background-color: rgba(110, 125, 233, 0.872);
+    min-height: 10pc;
+    max-height: 25pc;
+}
+.card-img-top{
+    margin: 0px;
+    height: 15pc;
+}

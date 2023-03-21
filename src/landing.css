@@ -1,11 +1,8 @@
-.background{
-    
-    background-color: rgba(3, 6, 32, 0.945);
-}
+
 
 .cover{
     width: 100%;
-    height: 50pc;
+    height: 45pc;
     margin-bottom: 0cm;
 }
 .cover_items{
@@ -14,6 +11,7 @@
     margin-top: -30pc;
 }
 .mypic{
+    
     margin-top: -5pc;
     margin-left: 0pc;
     height: 35pc;
@@ -79,48 +77,5 @@
     font-family:  sans-serif;
 }
 
-#card_view{
-    background-color: rgb(158, 194, 236);
-    margin-top: -5pc;
-    margin-left: 10%;
-    width:76%;
-    height: 17pc;
-    display: flex;
-    border-radius: 25px;
-    margin-bottom: 5pc;
-    
-    
-}
-
-.footer{
-    display:flexbox;
-    background-color: darkgray;
-    height: 15pc;
 
 
-}
-.social{
-    padding-top: 80px;
-    
-    
-    margin-left: 40%;
-    align-items: centers;
-    font-size: 20px;
-
-}
-.contact{
-    margin-top: -5.5%;
-margin-left: 5%;
-font-size: 20px;
-}
-#item{
-    margin-top: 0.5%;
-    font-size: 20px;
-
-}
-#company{
-    margin-left: 70%;
-    margin-top: -3%;
-    font-weight: 500;
-    font-size: 30px;
-}

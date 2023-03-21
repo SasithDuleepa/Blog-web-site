@@ -1,0 +1,20 @@
+#card_view{
+    background-color: transparent;
+    margin-top: -5pc;
+    margin-left: 5%;
+    width:90%;
+    height: 40pc;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 25px;
+    margin-bottom: 5pc;
+    
+    
+}
+#card_1{
+    margin-top: 15pc;
+
+}
+#card_3{
+    margin-top: 15pc;
+}

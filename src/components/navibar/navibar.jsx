@@ -1,17 +1,31 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
 import ('./navibar.css')
 
-export default function Navibar() {
+ function Navibar() {
+    
+
+
+
+    const currentUrl = window.location.href;
+    const domainName = new URL(currentUrl).pathname;
+    console.log(currentUrl)
+    console.log(domainName)
+
+
+
+
+    
   return (
-    <div className='navmain'>
-        <a>sasith Duleepa</a>
-        <div id='links'>
-        <a href=''>Home</a>
-        <a href=''>About</a>
-        <a href=''>Blog</a>
-        <a href=''>contact</a>
+    <nav className='navmain'>
+        <p className='navname'>sasith Duleepa</p>
+        <div className='links'>
+        <a className={domainName ==="/"?"a2":"a1"} href='/' >Home</a>
+        <a className={domainName ==="/about"?"a2":"a1"} href='/about'>About</a>
+        <a className={domainName ==="/blog"?"a2":"a1"} href='/blog'>Blog</a>
+        <a className={domainName ==="/contact"?"a2":"a1"} href='/contact'>contact</a>
         </div>
-    </div>
+    </nav>
   )
 }
+export default Navibar;
