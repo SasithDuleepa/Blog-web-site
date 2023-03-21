@@ -8,14 +8,20 @@ import { SlSocialFacebook,SlSocialGithub,SlSocialLinkedin,SlEnvolope,SlPhone,SlE
 
 function Landing(props) {
     return (
-        <div>
-       
+        <div className='background'>
+        <div className='Header'>
             <img className='cover' src={Wallpaper} alt=''/>
-            <div className='name'>SASITH <br/> DULEEPA</div>
+            <div className='cover_items' >
             <img className='mypic' src={Mypic} alt='pic'/>
-            
+            <div style={{display:"block"}}>
+            <p className='myintro'>Hi There, I'm</p>
+            <div className='name'>SASITH DULEEPA</div>
+            <p className='intro'>Web Developer</p>
+            </div>
+            </div>
+            </div>
 
-            <div className='info'>
+            {/* <div className='info'>
                 <div className='frame_1'>
                     <p className='a'> name : J A S D JAYATHISSA</p><br/>
                     <p className='a'> DOB : 1997/12/08</p><br/>
@@ -24,7 +30,7 @@ function Landing(props) {
                 <div className='frame_2'>
                     <p className='a'>i'm a IT student. i'm study in institute of technology university of moratuwa.</p>
                 </div>
-            </div>
+            </div> */}
             <div id="card_view">
                 <div id='card_1' style={{margin:"35px"}}>
                 <BasicExample/>
