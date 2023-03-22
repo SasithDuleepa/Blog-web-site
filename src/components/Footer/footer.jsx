@@ -9,9 +9,9 @@ export default function Footer() {
 
 
                 <div className='social'>
-                <div id='item'><SlSocialFacebook/><a href=''> facebook</a></div>
-                <div id='item'><SlSocialGithub/><a href=''> github</a></div>
-                <div id='item'><SlSocialLinkedin/><a href=''> linked in</a></div>
+                <div id='item'><SlSocialFacebook/> <a id='linkname' href=''> facebook</a></div>
+                <div id='item'><SlSocialGithub/><a id='linkname' href=''> github</a></div>
+                <div id='item'><SlSocialLinkedin/><a id='linkname' href=''> linked in</a></div>
                 
                 </div>
 

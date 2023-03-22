@@ -12,6 +12,11 @@
     font-size: 20px;
 
 }
+#linkname{
+    text-decoration: none;
+    color: azure;
+    margin-left: 5px;
+    }
 .contact{
     margin-right: 2pc;
     margin-top: 2pc;

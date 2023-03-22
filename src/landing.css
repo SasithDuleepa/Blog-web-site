@@ -49,26 +49,7 @@
      margin: 1%;
      display: flex;
 }
-.frame_1{
-    background: transparent;
-    backdrop-filter: blur(100px);
-    height: 40pc;
-    width: 47%;
-    margin: 1%;
-    margin-left: 2%;
-}
-.frame_2{
-    text-align: center;
-    
-    display: block;
-    background-color: beige;    
-    backdrop-filter: blur(100px);
-    height: 40pc;
-    width: 35%;
-    margin: 1%;
-    border-radius: 25px;
-    border: 2px;
-}
+
 
 .a{
     font-size: 25px;

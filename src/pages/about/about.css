@@ -1,0 +1,37 @@
+p{
+    color: aliceblue;
+}
+.mainframe{
+    /* margin: 20px;
+    width: 98%;
+    height: 50pc;
+    color:antiquewhite ;
+    background-color: rgba(255, 255, 255, 0.649); */
+}
+#my_pic{
+    height: auto;
+    width: 100%;
+    opacity: 20%;
+}
+#contact{
+    width: 40pc;
+    height: 40pc;
+    background-color: rgba(227, 187, 135, 0.792);
+   
+    margin-top: -65pc;
+    margin-left: 10pc;
+    margin-bottom: 25pc;
+    
+
+    font-size: 25px;
+
+}
+#myself{
+    margin: 20px;
+    padding-top: 40px;
+    color: rgb(3, 4, 4);
+    font-size: 25px;
+    font-style: italic;
+    
+    
+}
