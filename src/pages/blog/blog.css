@@ -1,0 +1,11 @@
+.blogposts{
+     /* top: 50%; IMPORTANT */
+        left: 50%; /* IMPORTANT */
+        /* display: block; */
+        position:relative;
+        /* margin-top: -208.5px; HALF OF THE HEIGHT */
+        margin-left: -375px;
+
+
+   
+}

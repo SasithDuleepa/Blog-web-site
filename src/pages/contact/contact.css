@@ -1,32 +1,51 @@
 .contact_main{
     width: 90%;
-    height: 60pc;
+    height: 37pc;
     margin: 5%;
     background-color: rgba(250, 235, 215, 0.126);
+   
 }
 #contact_me{
-    font-size: 60px;
+    font-size: 30px;
     font-weight: 500;
-    margin-left: 40%;
+    margin-left: 25%;
     padding-top: 80px;
 }
 .contactme{
+     
+    
+    position:relative;
+   
+    margin-left: -375px;
     color: aliceblue;
-    font-size: 50px;
+    font-size: 25px;
     margin-left: 40%;
     margin-top: 20px;
 }
 
 #follow_me{
-    font-size: 60px;
+    font-size: 30px;
     font-weight: 500;
-    margin-left: 40%;
+    margin-left: 25%;
     margin-top: 70px;
     color: aquamarine;
 }
 .socialacc{
+    
+    
+    position:relative;
+   
+    margin-left: -375px;
+
+
     color: aliceblue;
-    font-size: 50px;
+    font-size: 20px;
     margin-left: 40%;
     margin-top: 20px;
+    position: relative;
+    align-items: center;
+    
+}
+a{
+    text-decoration: none;
 }

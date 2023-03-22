@@ -2,13 +2,13 @@
     display:flex;
     justify-content: space-between;
     background-color: rgb(48, 44, 60);
-    height: 15pc;
+    height: 9pc;
     color: aliceblue;
 
 
 }
 .social{
-    margin-top: 2pc;
+    margin-top: 20px;
     margin-right: 8pc;
     font-size: 20px;
 
@@ -18,21 +18,16 @@
     color: azure;
     margin-left: 5px;
     }
-.contact{
-    margin-right: 2pc;
-    margin-top: 2pc;
 
-font-size: 20px;
-}
 #item{
    
     font-size: 20px;
-    margin-top: 1pc;
+    margin-top: opc;
 
 }
 #company{
-    margin-top: 5pc;
+    margin-top: 3pc;
     margin-left: 5pc;
     font-weight: 500;
-    font-size: 30px;
+    font-size: 20px;
 }

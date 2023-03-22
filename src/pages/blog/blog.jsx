@@ -2,9 +2,12 @@ import React from 'react'
 import Blogpost from '../../components/blogpost/blogpost'
 import reacticon from '../../components/pic/react.jpg'
 import python from '../../components/pic/python.jpg'
+
+import './blog.css'
 export default function Blog() {
   return (
-    <div><Blogpost head='React.js'
+    <div>
+    <div className='blogposts'><Blogpost head='React.js'
      image={reacticon}
      info="ReactJS is an open-source JavaScript library used for building user interfaces (UIs)
       and web applications. Developed and maintained by Facebook, React allows developers to create
@@ -33,6 +36,7 @@ Overall, React is a powerful and flexible tool for building modern web applicati
      
      Overall, Python is a powerful and versatile language that is well-suited for a wide range of programming tasks. Whether you are a beginner or an experienced developer, Python is an excellent language to learn and add to your skillset."
      />
+     </div>
      </div>
   )
 }

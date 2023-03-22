@@ -1,9 +1,13 @@
 .card{
-    background-color: rgba(110, 125, 233, 0.872);
-    min-height: 10pc;
-    max-height: 25pc;
+    background-color: rgba(133, 139, 179, 0.739);
+    min-height: 2pc;
+    
+    width: 2pc;
 }
 .card-img-top{
     margin: 0px;
-    height: 15pc;
+    height: 10pc;
+    width: 13pc;
+    margin-left: 15px;
+    margin-top: 10px;
 }

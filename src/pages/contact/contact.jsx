@@ -5,8 +5,8 @@ export default function Contact() {
   return (
     <div className='contact_main'>
       <p id='contact_me'>Contact me...</p>
-      <div className='contactme'>mobile no.: <a> 077 9090516</a></div>
-      <div className='contactme'>e-mail address: <a> sasithduleepa@gmail.com</a></div>
+      <div className='contactme'>mobile no. : <a> 077 9090516</a></div>
+      <div className='contactme'>e-mail address : <a> sasithduleepa@gmail.com</a></div>
       
      
       

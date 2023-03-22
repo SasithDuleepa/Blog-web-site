@@ -1,9 +1,9 @@
 .frame_main_{
-    width: 50%;
-    height: 70pc;
-    margin-left: 30pc;
-    margin-top: 5pc;
-    margin-bottom: 5pc;
+    max-width: 50pc;
+    max-height: 50pc;
+    min-width: 50pc;
+    min-height: 50pc;
+ 
     
     background-color: rgba(255, 255, 255, 0.185); 
     
@@ -13,19 +13,20 @@
 
 }
 .bloghead{
+    color: rgb(6, 38, 39);
     margin-top: 30px;
-    font-size: 50px;
+    font-size: 40px;
 }
 .info{
     color: #ffffff;
     margin: 18px;
-    font-size: 20px;
+    font-size: 15px;
     margin-top: 80px;
     
 }
 .img{
-    height: 20pc;
-    width: auto;
+    max-height: 20pc;
+    max-width: 30pc;
     margin-top: 40px;
 }
 

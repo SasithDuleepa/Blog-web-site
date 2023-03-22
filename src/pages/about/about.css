@@ -7,6 +7,7 @@ p{
     height: 50pc;
     color:antiquewhite ;
     background-color: rgba(255, 255, 255, 0.649); */
+    
 }
 #my_pic{
     height: auto;
@@ -14,23 +15,22 @@ p{
     opacity: 20%;
 }
 #contact{
-    width: 40pc;
-    height: 40pc;
-    background-color: rgba(227, 187, 135, 0.792);
-   
-    margin-top: -65pc;
-    margin-left: 10pc;
-    margin-bottom: 25pc;
+    max-width: 30pc;
     
-
-    font-size: 25px;
-
+    background-color: rgba(215, 209, 200, 0.158);
+    margin-top: -40pc;
+    margin-bottom: 14.3pc;
+    position: relative;
+    left: 40%; /* IMPORTANT */
+    margin-left: -375px;
+    border-radius: 30px 0px 30px 0px;
 }
 #myself{
     margin: 20px;
-    padding-top: 40px;
-    color: rgb(3, 4, 4);
-    font-size: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: rgb(175, 217, 217);
+    font-size: 17px;
     font-style: italic;
     
     
