@@ -15,11 +15,11 @@ export default function Footer() {
                 
                 </div>
 
-                <div className='contact'>
+                {/* <div className='contact'>
                 <div id='item'><SlPhone/> 0779092516</div>
                 <div id='item'><SlEnvolopeLetter/> no.870,unagalawehera, polonnaruwa</div>                
                 <div id='item'><SlEnvolope/> duleepajayathissa@gmail.com</div>
-                </div>
+                </div> */}
 
                 
             </div>

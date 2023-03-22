@@ -1,9 +1,12 @@
 .frame_main_{
     width: 50%;
-    height: fit-content;
+    height: 70pc;
+    margin-left: 30pc;
+    margin-top: 5pc;
+    margin-bottom: 5pc;
     
     background-color: rgba(255, 255, 255, 0.185); 
-    margin: 5%;
+    
     text-align: center;
     background-size: cover;
     background-position: center;

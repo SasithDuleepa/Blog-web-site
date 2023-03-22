@@ -1,0 +1,32 @@
+.contact_main{
+    width: 90%;
+    height: 60pc;
+    margin: 5%;
+    background-color: rgba(250, 235, 215, 0.126);
+}
+#contact_me{
+    font-size: 60px;
+    font-weight: 500;
+    margin-left: 40%;
+    padding-top: 80px;
+}
+.contactme{
+    color: aliceblue;
+    font-size: 50px;
+    margin-left: 40%;
+    margin-top: 20px;
+}
+
+#follow_me{
+    font-size: 60px;
+    font-weight: 500;
+    margin-left: 40%;
+    margin-top: 70px;
+    color: aquamarine;
+}
+.socialacc{
+    color: aliceblue;
+    font-size: 50px;
+    margin-left: 40%;
+    margin-top: 20px;
+}

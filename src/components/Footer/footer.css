@@ -9,6 +9,7 @@
 }
 .social{
     margin-top: 2pc;
+    margin-right: 8pc;
     font-size: 20px;
 
 }
@@ -31,7 +32,7 @@ font-size: 20px;
 }
 #company{
     margin-top: 5pc;
-    margin-left: 1pc;
+    margin-left: 5pc;
     font-weight: 500;
     font-size: 30px;
 }
