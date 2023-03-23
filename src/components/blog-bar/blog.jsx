@@ -21,10 +21,10 @@ return (
                 link="https://github.com/SasithDuleepa/recommendation_system"/>
                 </div>
                 <div id='card_3'>
-                <BasicExample imgurl="https://picsum.photos/200/300" title="my Blog" link=""/>
+                <BasicExample imgurl="https://picsum.photos/200/300" title="my Blog" link="https://github.com/SasithDuleepa/Blog"/>
                 </div>
                 <div id='card_4'>
-                <BasicExample imgurl={bot}title="telegram bot"/>
+                <BasicExample imgurl={bot}title="telegram bot" link="https://github.com/SasithDuleepa/telegram_bot"/>
                 </div>
             </div>
     </div>

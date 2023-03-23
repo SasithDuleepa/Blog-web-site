@@ -5,7 +5,7 @@
     background-color: rgba(250, 235, 215, 0.126);
    
 }
-#contact_me{
+.contact_me{
     font-size: 30px;
     font-weight: 500;
     margin-left: 25%;
@@ -16,14 +16,14 @@
     
     position:relative;
    
-    margin-left: -375px;
+    margin-left: -40%px;
     color: aliceblue;
     font-size: 25px;
     margin-left: 40%;
     margin-top: 20px;
 }
 
-#follow_me{
+.follow_me{
     font-size: 30px;
     font-weight: 500;
     margin-left: 25%;
@@ -35,12 +35,12 @@
     
     position:relative;
    
-    margin-left: -375px;
+    margin-left: 40%;
 
 
     color: aliceblue;
     font-size: 20px;
-    margin-left: 40%;
+    
     margin-top: 20px;
     position: relative;
     align-items: center;
@@ -48,4 +48,13 @@
 }
 a{
     text-decoration: none;
+}
+
+@media screen and (max-width:500px) {
+    .contact_me{font-size: 25px;}
+    .contactme{font-size: 20px;
+                margin-left: 20%;}
+    .follow_me{font-size: 25px;}
+    .socialacc{font-size: 20px;
+                margin-left: 20%;}
 }

@@ -1,27 +1,36 @@
-
+.container_1{
+    width: 1300px;
+    margin: 0 auto;
+}
 
 .cover{
     width: 100%;
-    height: 40pc;
-    margin-bottom: 0cm;
-}
-.cover_items{
-    display:flex;
-    justify-content: space-between;
-    margin-top: -30pc;
-}
-.mypic{
+    height: 600px;
     
-    margin-top: 0pc;
-    margin-left: 0pc;
-    height: 30pc;
-    width: 22pc;
-    margin-bottom: 10pc;
+    
+}
+.child_0{
+    display: flex;
+    justify-content: space-between;
+    }
+.mypic{
+    justify-self: flex-end;
+    margin-top: -400px;
+    display:block;
+    
+    height: 30%;
+    width: 22%;
+    
+}
+.child_1{
+    
+    margin-top: -400px;
+  
+
 }
 .myintro{
-    font-size: 2pc;    
-    max-width: 12pc;
-    min-width: 12pc;    
+    font-size: 3em;    
+       
     margin-bottom:0pc;
     margin-right: 25pc;
     margin-left: -5pc;
@@ -32,12 +41,12 @@
     /* margin-left: -20pc; */
     margin-top: 0pc;
     margin-bottom: 0pc;
-    font-size: 2cm;
+    font-size: 5em;
     color: rgba(219, 213, 231, 0.533);
     font-family: fantasy;
 }
 .intro{
-    font-size: 1.5cm;
+    font-size: 2em;
     margin-top: 0pc;
     margin-left: 0pc;
     color: aliceblue;
@@ -61,3 +70,14 @@
 
 
 
+@media screen and (max-width:500px) {
+    .container_1{width: 500;}
+    .cover{width: 100%;}
+    
+    .myintro{font-size: 1.5em;}
+    .name{font-size: 2.1em;}
+    .intro{font-size: 1.4em;}
+    .mypic{height: 20%;}
+    
+    
+}

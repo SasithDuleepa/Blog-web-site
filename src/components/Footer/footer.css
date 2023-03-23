@@ -1,4 +1,6 @@
 .footer{
+    width: 1300px;
+    margin: 0 auto;
     display:flex;
     justify-content: space-between;
     background-color: rgb(48, 44, 60);
@@ -7,16 +9,24 @@
 
 
 }
+.company{
+    margin-top: 50px;
+    margin-left: 20px;
+    font-weight: 500;
+    font-size: 20px;
+}
 .social{
     margin-top: 20px;
-    margin-right: 8pc;
+    margin-right: 50px;   
     font-size: 20px;
 
 }
+
+
 #linkname{
     text-decoration: none;
     color: azure;
-    margin-left: 5px;
+    margin-left: 0px;
     }
 
 #item{
@@ -25,9 +35,9 @@
     margin-top: opc;
 
 }
-#company{
-    margin-top: 3pc;
-    margin-left: 5pc;
-    font-weight: 500;
-    font-size: 20px;
+
+@media screen and (max-width:500px) {
+    .company{font-size: 15px;}
+    
 }
+

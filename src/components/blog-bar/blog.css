@@ -1,8 +1,15 @@
+.parent_frame{
+    width: 1300px;
+    margin: 0 auto;
+}
+
 #card_view{
     background-color: transparent;
-    margin-top: -5pc;
-    margin-left: 5%;
-    width:90%;
+    margin-top: 5pc;
+    width: 1300px;
+    margin: 0 auto;
+   
+  
     height: 40pc;
     display: flex;
     justify-content: space-between;
@@ -17,4 +24,9 @@
 }
 #card_3{
     margin-top: 15pc;
+}
+@media screen and (max-width:500px) {
+    
+    
+    
 }
