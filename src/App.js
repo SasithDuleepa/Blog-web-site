@@ -4,13 +4,14 @@ import { Switch } from 'react-router-dom';
 
 import Landing from './landing';
 import GridExample from './components/card/card';
-import Navibar from './components/navibar/navibar';
+
 import Blog_ from './components/blog-bar/blog';
 
 import Blog from'./pages/blog/blog';
 import Contact from './pages/contact/contact';
 import About from './pages/about/about';
 import Footer from './components/Footer/footer';
+import NavScrollExample from './components/navbar/navbar';
 
 import './App.css'
 
@@ -18,8 +19,9 @@ import './App.css'
 
 function App(props) {
   return (
-    <div>
-      <Navibar/>
+    <>    
+     
+     <NavScrollExample/>
   
       <Router>
         <Switch>
@@ -30,7 +32,8 @@ function App(props) {
         </Switch>
       </Router>
       <Footer/>
-    </div>
+      </>
+ 
   );
 }
 

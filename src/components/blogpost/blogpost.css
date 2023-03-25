@@ -1,8 +1,7 @@
 .frame_main_{
-    max-width: 50pc;
-    max-height: 50pc;
-    min-width: 50pc;
-    min-height: 50pc;
+    width: 50pc;
+    height: 50pc;
+    
  
     
     background-color: rgba(255, 255, 255, 0.185); 
@@ -25,8 +24,14 @@
     
 }
 .img{
-    max-height: 20pc;
-    max-width: 30pc;
+    height: auto;
+    width: 30pc;
     margin-top: 40px;
 }
 
+@media screen and (max-width:500px) {
+    .frame_main_{width: 24.5pc;}
+    .img{width: 20pc;}
+    .info{font-size: 12px;}
+    
+}

@@ -2,13 +2,13 @@ import React from 'react'
 import './about.css'
 import sasi from '../../components/pic/sasith.jpg'
 import { SlSocialFacebook,SlSocialGithub,SlSocialLinkedin,SlEnvolope,SlPhone,SlEnvolopeLetter} from "react-icons/sl";
-
+import Footer from '../../components/Footer/footer';
 export default function About() {
   return (
     <div className="mainframe">
-      <img id='my_pic' src={sasi}/>
-      <div id='contact'>
-      <p id='myself'>Hello, my name is Sasith Duleepa Jayathissa and
+      <img className='my_pic' src={sasi}/>
+      <div className='contact'>
+      <p className='myself'>Hello, my name is Sasith Duleepa Jayathissa and
        I am a beginner-level full-stack developer currently studying 
        at the Institute of Technology, University of Moratuwa. My
         programming journey began as a front-end web developer using
@@ -26,7 +26,7 @@ export default function About() {
       
       </div>
       
-      <p></p>
+    
     </div>
   )
 }

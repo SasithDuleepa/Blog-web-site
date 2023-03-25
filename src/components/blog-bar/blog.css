@@ -3,29 +3,26 @@
     margin: 0 auto;
 }
 
-#card_view{
+.card_view{
     background-color: transparent;
     margin-top: 5pc;
     width: 1300px;
     margin: 0 auto;
    
   
-    height: 40pc;
+    height: 30pc;
     display: flex;
     justify-content: space-between;
     border-radius: 25px;
-    margin-bottom: 5pc;
+    margin-top: 1pc;
     
     
 }
-#card_1{
-    margin-top: 15pc;
 
-}
-#card_3{
-    margin-top: 15pc;
-}
-@media screen and (max-width:500px) {
+@media screen and (max-width:800px) {
+    .card_view{display: block;
+                margin-top: 1pc;
+                margin-left: 20%;}
     
     
     

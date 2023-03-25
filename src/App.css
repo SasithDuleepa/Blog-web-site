@@ -2,6 +2,8 @@ body{
     
   background-color: rgba(3, 6, 32, 0.945);
 }
-Footer{
-  position: absolute;
+
+@media screen and (max-width:500px) {
+  body{width: 100%;}
+  
 }

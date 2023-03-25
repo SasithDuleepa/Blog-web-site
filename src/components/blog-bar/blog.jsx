@@ -9,7 +9,7 @@ export default function Blog_(){
 return (
 
     <div>
-        <div id="card_view">
+        <div className="card_view">
                 <div id='card_1' >
                 <BasicExample imgurl={book} title="e-book store"
                  intro="v4u e book store store is a e commerce platform"

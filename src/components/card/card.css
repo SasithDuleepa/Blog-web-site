@@ -1,7 +1,7 @@
 .card{
     background-color: rgba(133, 139, 179, 0.739);
     min-height: 2pc;
-    
+    margin: 1pc;
     width: 2pc;
 }
 .card-img-top{

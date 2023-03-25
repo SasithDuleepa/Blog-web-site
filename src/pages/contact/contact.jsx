@@ -1,5 +1,6 @@
 import React from 'react'
 import './contact.css'
+
 import { SlSocialFacebook,SlSocialGithub,SlSocialLinkedin,SlEnvolope,SlPhone,SlEnvolopeLetter} from "react-icons/sl";
 export default function Contact() {
   return (
@@ -15,7 +16,7 @@ export default function Contact() {
       <div className='socialacc'><SlSocialGithub/> <a href=''>github</a> </div>
       <div className='socialacc'><SlSocialFacebook/> <a href=''>facebook</a> </div>
       
-      
+     
     </div>
   )
 }

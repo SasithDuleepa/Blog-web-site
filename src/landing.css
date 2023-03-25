@@ -1,6 +1,9 @@
-.container_1{
-    width: 1300px;
+.container_1_{
+    width: 100%;
+    height: 35pc;
     margin: 0 auto;
+    background-color: rgb(8, 11, 1);
+    box-sizing: inherit;
 }
 
 .cover{
@@ -15,40 +18,38 @@
     }
 .mypic{
     justify-self: flex-end;
-    margin-top: -400px;
-    display:block;
+    margin-top: 110px;
+   
     
-    height: 30%;
-    width: 22%;
+    height: 28pc;
+
     
 }
 .child_1{
-    
-    margin-top: -400px;
+    margin-right: 100px;
+    margin-top: 100px;
+    color: aliceblue;
   
 
 }
 .myintro{
     font-size: 3em;    
        
-    margin-bottom:0pc;
-    margin-right: 25pc;
+    
+    
     margin-left: -5pc;
     color: aliceblue;
 }
 .name{
-    margin-right: 0pc;
-    /* margin-left: -20pc; */
-    margin-top: 0pc;
-    margin-bottom: 0pc;
+   
+    
     font-size: 5em;
     color: rgba(219, 213, 231, 0.533);
-    font-family: fantasy;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .intro{
     font-size: 2em;
-    margin-top: 0pc;
-    margin-left: 0pc;
+   
     color: aliceblue;
 }
 
@@ -70,14 +71,24 @@
 
 
 
-@media screen and (max-width:500px) {
-    .container_1{width: 500;}
-    .cover{width: 100%;}
+@media screen and (max-width:800px) {
     
-    .myintro{font-size: 1.5em;}
+    .container_1{width:50pc;
+                 }
+    .Landing{height: 120pc;
+              margin-bottom: 1pc;}             
+    .child_1{
+        margin-right: 50px;
+        margin-top: 200px;
+    }             
+    
+    
+    .myintro{font-size: 1em;
+              margin-left: 7pc;}
     .name{font-size: 2.1em;}
     .intro{font-size: 1.4em;}
-    .mypic{height: 20%;}
+    .mypic{height: 13pc;
+           margin-top: 350px;}
     
     
 }

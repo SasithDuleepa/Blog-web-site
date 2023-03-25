@@ -1,6 +1,6 @@
 .contact_main{
     width: 90%;
-    height: 37pc;
+    height: a;
     margin: 5%;
     background-color: rgba(250, 235, 215, 0.126);
    
@@ -27,13 +27,13 @@
     font-size: 30px;
     font-weight: 500;
     margin-left: 25%;
-    margin-top: 70px;
+    margin-top: 50px;
     color: aquamarine;
 }
 .socialacc{
     
     
-    position:relative;
+    /* position:relative; */
    
     margin-left: 40%;
 
@@ -51,10 +51,11 @@ a{
 }
 
 @media screen and (max-width:500px) {
-    .contact_me{font-size: 25px;}
-    .contactme{font-size: 20px;
+    .contact_me{font-size: 20px;}
+    .contactme{font-size: 16px;
                 margin-left: 20%;}
-    .follow_me{font-size: 25px;}
-    .socialacc{font-size: 20px;
+    .follow_me{font-size: 16px;}
+    .socialacc{font-size: 16px;
                 margin-left: 20%;}
+    .contact_main{height: 30pc;}
 }
