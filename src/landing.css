@@ -3,6 +3,7 @@
     height: 35pc;
     margin: 0 auto;
     background-color: rgb(8, 11, 1);
+    background-image: linear-gradient(to right,#058185, #0ce1e1);
     box-sizing: inherit;
 }
 
@@ -33,24 +34,35 @@
 
 }
 .myintro{
-    font-size: 3em;    
-       
-    
-    
+    font-size: 3em;
     margin-left: -5pc;
     color: aliceblue;
 }
 .name{
    
-    
+    font-weight: 530;
     font-size: 5em;
-    color: rgba(219, 213, 231, 0.533);
+    color: rgba(73, 15, 189, 0.533);
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+.intro_frame{
+    background:linear-gradient(45deg,#5c3fd0, #000808) border-box;
+    border: 4px solid transparent;
+    
+    width: max-content;
+    position: relative;
+    box-sizing: border-box;
+
+    border-radius: 35px;
+}
 .intro{
-    font-size: 2em;
-   
+    
+    font-size: 1.5em;   
     color: aliceblue;
+    margin-left: 5%;
+    margin-top: 9px;
+    width: 14.5pc;
+    
 }
 
 
@@ -68,7 +80,18 @@
     margin-left: 5%;
     font-family:  sans-serif;
 }
-
+.skill{
+    font:2.5em sans-serif;
+    color: #0ce1e1;
+    margin-left: 40%;
+    margin-top: 5%;
+}
+.skills{
+    font: 3em sans-serif;
+    color: #0ce1e1;
+    margin: 5% 5% 10% 30%;
+   
+}
 
 
 @media screen and (max-width:800px) {
@@ -79,16 +102,23 @@
               margin-bottom: 1pc;}             
     .child_1{
         margin-right: 50px;
-        margin-top: 200px;
+        margin-top: 100px;
     }             
     
     
-    .myintro{font-size: 1em;
+    .myintro{font-size: 1.1em;
               margin-left: 7pc;}
-    .name{font-size: 2.1em;}
-    .intro{font-size: 1.4em;}
+             
+    .name{font-size: 2.2em;
+           font-weight: 500;}
+    .intro{font-size: 1em;}
+    .intro_frame{width:10pc;}
     .mypic{height: 13pc;
            margin-top: 350px;}
+    .skills{font-size: 1.5em;
+    margin-left:60px;}  
+    .skill{font-size: 2em;
+           margin-left: 100px;}     
     
     
 }

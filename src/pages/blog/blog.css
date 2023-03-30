@@ -4,8 +4,9 @@
    
 }
 @media screen and (max-width:500px) {
-        .blogposts{margin: 10px;}
-        .parent_frame{margin-bottom: 1pc;}
+        .blogposts{margin: 10px;
+                   margin-bottom: -20pc;}
+        .parent_frame{width: 500px;}
         
     }
 

@@ -10,12 +10,12 @@ export default function Contact() {
       <div className='contactme'>e-mail address : <a> sasithduleepa@gmail.com</a></div>
       
      
-      
+      <div className='social_frame'>
       <p className='follow_me'>Follow me...</p>
       <div className='socialacc'><SlSocialLinkedin/> <a href=''>linked in</a> </div>
       <div className='socialacc'><SlSocialGithub/> <a href=''>github</a> </div>
       <div className='socialacc'><SlSocialFacebook/> <a href=''>facebook</a> </div>
-      
+      </div>
      
     </div>
   )

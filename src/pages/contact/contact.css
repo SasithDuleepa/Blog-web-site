@@ -10,6 +10,7 @@
     font-weight: 500;
     margin-left: 25%;
     padding-top: 80px;
+    color: aqua;
 }
 .contactme{
      
@@ -17,18 +18,21 @@
     position:relative;
    
     margin-left: -40%px;
-    color: aliceblue;
+    color: rgb(43, 224, 244);
     font-size: 25px;
     margin-left: 40%;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .follow_me{
     font-size: 30px;
     font-weight: 500;
-    margin-left: 25%;
+    margin-left: 30%;
     margin-top: 50px;
-    color: aquamarine;
+    color: rgb(60, 221, 224);
+}
+a{
+    color: aqua;
 }
 .socialacc{
     
@@ -38,23 +42,29 @@
     margin-left: 40%;
 
 
-    color: aliceblue;
+    color: rgb(109, 169, 221);
     font-size: 20px;
-    
+    font-weight: 500;
+    margin-bottom: 1%;
     margin-top: 20px;
     position: relative;
     align-items: center;
     
+}
+.social_frame{
+    
+    padding-bottom: 20px;
 }
 a{
     text-decoration: none;
 }
 
 @media screen and (max-width:500px) {
-    .contact_me{font-size: 20px;}
+    .contact_me{font-size: 20px;
+    margin-left: 30%;}
     .contactme{font-size: 16px;
-                margin-left: 20%;}
-    .follow_me{font-size: 16px;}
+                margin-left: 10%;}
+    .follow_me{font-size: 20px;}
     .socialacc{font-size: 16px;
                 margin-left: 20%;}
     .contact_main{height: 30pc;}

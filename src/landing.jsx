@@ -17,11 +17,19 @@ function Landing(props) {
                        <img className='mypic' src={Mypic} alt='pic'/>
                           <div className='child_1'>
                             <p className='myintro'>Hi There, I'm</p>
-                            <p className='name'>SASITH DULEEPA</p>
-                            <p className='intro'>Web Developer</p>
+                            
+                            <p className='name'>Sasith Duleepa</p>
+                            <div className='intro_frame'>
+                            <p className='intro'>Fullstack Developer</p>
+                            </div>
                           </div>
                       </div>
            
+                </div>
+                <div className='skill'>Technical skills</div>
+                <div className='skills'>
+                    React.js | Node.js | Python
+
                 </div>
             
 
