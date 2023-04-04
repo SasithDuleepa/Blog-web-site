@@ -1,15 +1,19 @@
 .contact_main{
+    display: flex;
+    justify-content: space-between;
     width: 90%;
     height: a;
     margin: 5%;
     background-color: rgba(250, 235, 215, 0.126);
+    border: 0px solid;
+    border-radius: 10px;
    
 }
 .contact_me{
     font-size: 30px;
     font-weight: 500;
     margin-left: 25%;
-    padding-top: 80px;
+    padding-top: 0;
     color: aqua;
 }
 .contactme{
@@ -27,7 +31,7 @@
 .follow_me{
     font-size: 30px;
     font-weight: 500;
-    margin-left: 30%;
+    margin-left: 10%;
     margin-top: 50px;
     color: rgb(60, 221, 224);
 }
@@ -54,6 +58,13 @@ a{
 .social_frame{
     
     padding-bottom: 20px;
+    margin-right: 7%;
+    width: 20pc;
+}
+.contact_frame{
+    padding-top: 60px;
+    margin-left: -10%;
+    width: 40pc;
 }
 a{
     text-decoration: none;
@@ -61,11 +72,12 @@ a{
 
 @media screen and (max-width:500px) {
     .contact_me{font-size: 20px;
-    margin-left: 30%;}
+    margin-left: 10%;}
     .contactme{font-size: 16px;
-                margin-left: 10%;}
+                margin-left: 20%;}
     .follow_me{font-size: 20px;}
     .socialacc{font-size: 16px;
-                margin-left: 20%;}
-    .contact_main{height: 30pc;}
+                margin-left: 30%;}
+    .contact_main{height: 30pc;
+                   display:block;}
 }

@@ -12,14 +12,14 @@ p{
     opacity: 20%;
 }
 .contact{
-    max-width: 30pc;
+    max-width: 50pc;
     
     background-color: rgba(215, 209, 200, 0.158);
-    margin-top: -40pc;
+    margin-top: -45pc;
     margin-bottom: 14.3pc;
     position: relative;
     left: 40%; /* IMPORTANT */
-    margin-left: -375px;
+    margin-left: -300px;
     border-radius: 30px 0px 30px 0px;
 }
 .myself{
@@ -27,13 +27,13 @@ p{
     padding-top: 30px;
     padding-bottom: 30px;
     color: rgb(175, 217, 217);
-    font-size: 17px;
+    font-size: 19px;
     font-style: italic;
     
     
 }
 @media screen and (max-width:800px) {
-    .mainframe{height: 20pc;}
+    .mainframe{height: 0pc;}
    .contact{
     width: 25pc;
     

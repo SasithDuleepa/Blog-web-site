@@ -1,6 +1,7 @@
 .frame_main_{
     width: 50pc;
     height: 50pc;
+    margin-bottom: 10px;
     
  
     
@@ -12,7 +13,7 @@
 
 }
 .bloghead{
-    color: rgb(68, 223, 133);
+    color: rgb(227, 237, 231);
     margin-top: 30px;
     font-size: 40px;
 }

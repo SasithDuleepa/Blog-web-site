@@ -58,6 +58,7 @@
 }
 
 @media screen and (max-width:800px) {
+    .footer_name{font-size: 1.5em;}
     .footer-main{height: 150px;
     margin-top: 25pc;}
     .github{width: 1pc; height: 1pc; margin: 5px;}
