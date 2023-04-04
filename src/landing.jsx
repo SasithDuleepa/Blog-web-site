@@ -31,6 +31,9 @@ function Landing(props) {
                     React.js | Node.js | Python
 
                 </div>
+                <div>
+                    <div className='projects'>My Projects</div>
+                </div>
             
 
         

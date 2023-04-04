@@ -3,6 +3,7 @@ import BasicExample from '../card/card'
 import bot from '../pic/bot.jpg'
 import book from '../pic/book.jpg'
 import rec from '../pic/recomend.jpg'
+import pos from '../pic/pos.jpg'
 
 import './blog.css'
 export default function Blog_(){
@@ -10,7 +11,7 @@ return (
 
     <div>
         <div className="card_view">
-                <div id='card_1' >
+                <div className='card_1' >
                 <BasicExample imgurl={book} title="e-book store"
                  intro="v4u e book store is online book store system."
                  link="https://github.com/SasithDuleepa/v4u"/>
@@ -20,8 +21,8 @@ return (
                 intro="this is a book reccomendation system build with python"
                 link="https://github.com/SasithDuleepa/recommendation_system"/>
                 </div>
-                <div id='card_3'>
-                <BasicExample imgurl="https://picsum.photos/200/300"
+                <div className='card_3'>
+                <BasicExample imgurl={pos}
                  intro="this is a point of sale system desiged for shopping centers" 
                  title="pos system" link="https://github.com/SasithDuleepa/Blog"/>
                 </div>

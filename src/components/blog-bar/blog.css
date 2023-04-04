@@ -10,7 +10,7 @@
     margin: 0 auto;
    
   
-    height: 30pc;
+    height: 35pc;
     display: flex;
     justify-content: space-between;
     border-radius: 25px;
@@ -18,11 +18,15 @@
     
     
 }
+.card_1, .card_3{
+    margin-top: 10pc;
+}
 
 @media screen and (max-width:800px) {
     .card_view{display: block;
                 margin-top: 1pc;
                 margin-left: 20%;}
+    .card_1,.card_3{margin-top: 0pc;}            
     
     
     

@@ -11,10 +11,59 @@
     font-weight: 500;
     margin: 4% 0 0 5%;
 }
+.social{
+    margin-top: 2pc;
+}
+.github{
+    width: 3pc;
+    height: 3pc;
+    margin: 1.5pc 2pc 0 0;
+    color: linear-gradient(to right,#69f1f5, #108080);
+    background-color: aliceblue;
+    padding: 1%;
+    border-radius: 7px;
+    box-shadow: 0px 0px 10px 10px rgba(63, 62, 62, 0.5);
+    
+}
+.insta{
+    width: 3pc;
+    height: 3pc;
+    margin: 1.5pc 2pc 0 0;
+    color: rgb(104, 18, 148);
+    background-color: aliceblue;
+    padding: 1%;
+    border-radius: 7px;
+    box-shadow: 0px 0px 10px 10px rgba(122, 43, 226, 0.5);
+}
+.linkedin{
+    width: 3pc;
+    height: 3pc;
+    margin: 1.5pc 2pc 0 0;
+    color: rgb(16, 40, 225);
+    background-color: aliceblue;
+    padding: 1%;
+    border-radius: 7px;
+    box-shadow: 0px 0px 10px 10px rgba(39, 84, 230, 0.5);
+}
+.google{
+    width: 3pc;
+    height: 3pc;
+    margin: 1.5pc 2pc 0 0;
+    color: rgb(3, 101, 3);
+    background-color: aliceblue;
+    background-color: aliceblue;
+    padding: 1%;
+    border-radius: 7px;
+    box-shadow: 0px 0px 10px 8px rgba(4, 81, 19, 0.5);
+}
+
 @media screen and (max-width:800px) {
     .footer-main{height: 150px;
     margin-top: 25pc;}
-    
+    .github{width: 1pc; height: 1pc; margin: 5px;}
+    .insta{width: 1pc; height: 1pc; margin: 5px;}
+    .linkedin{width: 1pc; height: 1pc; margin: 5px;}
+    .google{width: 1pc; height: 1pc; margin: 5px;}
     
     
 }

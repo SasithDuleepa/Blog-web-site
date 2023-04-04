@@ -12,8 +12,8 @@ export default function Contact() {
      
       <div className='social_frame'>
       <p className='follow_me'>Follow me...</p>
-      <div className='socialacc'><SlSocialLinkedin/> <a href=''>linked in</a> </div>
-      <div className='socialacc'><SlSocialGithub/> <a href=''>github</a> </div>
+      <div className='socialacc'><SlSocialLinkedin/> <a href='www.linkedin.com/in/sasith-duleepa'>linked in</a> </div>
+      <div className='socialacc'><SlSocialGithub/> <a href='https://github.com/SasithDuleepa'>github</a> </div>
       <div className='socialacc'><SlSocialFacebook/> <a href=''>facebook</a> </div>
       </div>
      

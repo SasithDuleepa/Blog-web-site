@@ -39,16 +39,43 @@
     color: aliceblue;
 }
 .name{
+
+    
+  background-image: linear-gradient(
+    -225deg,
+    #042058 2%,
+    #2007fd 29%,
+    #4439d9c6 67%,
+    #042058 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 5s linear infinite;
+  display: inline-block;
+      font-size: 70px;
+      font-weight: 600;
    
-    font-weight: 530;
+    /* font-weight: 530;
     font-size: 5em;
     color: rgba(73, 15, 189, 0.533);
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
 }
+@keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
 .intro_frame{
     background:linear-gradient(45deg,#5c3fd0, #000808) border-box;
     border: 4px solid transparent;
     
+    height: 50px;
     width: max-content;
     position: relative;
     box-sizing: border-box;
@@ -60,7 +87,7 @@
     font-size: 1.5em;   
     color: aliceblue;
     margin-left: 5%;
-    margin-top: 9px;
+    margin-top: 2px;
     width: 14.5pc;
     
 }
@@ -88,17 +115,24 @@
 }
 .skills{
     font: 3em sans-serif;
-    color: #0ce1e1;
+    color: #5cefef;
     margin: 5% 5% 10% 30%;
    
 }
 
+.projects{
+    font:2.5em sans-serif;
+    color: #0ce1e1;
+    margin-left: 43%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
 
 @media screen and (max-width:800px) {
     
     .container_1{width:50pc;
                  }
-    .Landing{height: 120pc;
+    .Landing{height: 128pc;
               margin-bottom: 1pc;}             
     .child_1{
         margin-right: 50px;
@@ -118,7 +152,8 @@
     .skills{font-size: 1.5em;
     margin-left:60px;}  
     .skill{font-size: 2em;
-           margin-left: 100px;}     
-    
+           margin-left: 115px;}     
+    .projects{font-size: 2em;
+              margin-left: 140px;}
     
 }
