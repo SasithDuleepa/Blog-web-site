@@ -49,4 +49,4 @@ The website was built using the following technologies:
 
 ## Contributing
 
-If you would like to contribute to this project, feel free to submit a pull request or open an issue to report a bug or suggest a new featu
+If you would like to contribute to this project, feel free to submit a pull request or open an issue to report a bug or suggest a new feature.
